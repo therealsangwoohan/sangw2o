@@ -1,10 +1,22 @@
 import Container from 'react-bootstrap/Container';
+import Card from 'react-bootstrap/Card';
+
+import blogPosts from "../blog_posts.json";
 
 function Blog() {
   return (
     <Container className='mt-5'>
-        <h1 className="display-1">Okay, I was bluffing...</h1>
-        <h1 className="display-1">I don't have a blog <i>yet</i>.</h1>
+      {blogPosts.map(function(post, index) {
+        return (
+          <Card key={index}>
+            <Card.Body>
+              <Card.Title>{post.title}</Card.Title>
+              <Card.Subtitle>{post.subtitle}</Card.Subtitle>
+              <Card.Body>{post.body}</Card.Body>
+            </Card.Body>
+          </Card>
+        )
+      })}
     </Container>
   )
 }

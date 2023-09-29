@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "title": "Hello, World!",
+        "subtitle": "When you have nothing to say...",
+        "body": "The tradition of using 'Hello, World!' dates back to the early days of computer programming. The phrase was first used in the book 'The C Programming Language by Brian Kernighan and Dennis Ritchie', which helped popularize it."
+    },
+    {
+        "id": 2,
+        "title": "Why East Asia is more collectivist",
+        "subtitle": "How our ancestors' farms shaped our thinking",
+        "body": "Many people must work together to grow rice and maintain the infrastructure. A family can support itself growing wheat, while rice requires the whole village."
+    }
+]
