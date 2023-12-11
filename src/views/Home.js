@@ -13,6 +13,7 @@ function Home() {
           <Col md={1}><a href="https://www.linkedin.com/in/sangw2ohan/" style={{textDecoration: 'none'}}>LinkedIn</a></Col>
           <Col md={1}><a href="https://github.com/therealsangwoohan" style={{textDecoration: 'none'}}>GitHub</a></Col>
           <Col md={1}><a href="/resume.pdf" style={{textDecoration: 'none'}}>Resume</a></Col>
+          <Col md={1}><a href="https://medium.com/@sangw2ohan" style={{textDecoration: 'none'}}>Blog</a></Col>
         </Row>
     </Container>
   )

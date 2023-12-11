@@ -9,7 +9,6 @@ function NavigationBar() {
         <Nav></Nav>
         <Nav>
           <Nav.Link href="/">🏠</Nav.Link>
-          <Nav.Link href="/blog">Blog</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
